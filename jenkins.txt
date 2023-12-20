@@ -1,0 +1,14 @@
+
+    1 sudo apt update
+    2  sudo apt-get update
+    3  sudo apt-cache search openjdk
+    4  sudo apt-get install openjdk-8-jdk
+    5  java --version
+    6  java -version
+    7  java -v
+    8  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]     https://pkg.jenkins.io/debian-stable binary/ | sudo tee     /etc/apt/sources.list.d/jenkins.list > /dev/null
+    9  sudo apt-get update
+   10  sudo apt-get install jenkins
+   11  jenkins service status
+   12  sudo service jenkins status
+   13  istance ka ip adress copy krke chrome me dalna hai example aesa [13.49.246.177:8080] fir enter krna hai fie pass vo jo last command status dalne ke baad aya so 
